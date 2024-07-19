@@ -1,12 +1,12 @@
 const firstname: string = "Papawadee"
 var y: number = 10
 y = 20
-var อยากกลับบ้านไหม: boolean = true
+var want_to_go_home: boolean = true
 
 
 console.log(firstname)
 console.log(y)
-console.log(อยากกลับบ้านไหม)
+console.log(what_to_go_home)
 
 
 const a:number = 10
