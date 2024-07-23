@@ -6,7 +6,7 @@ var want_to_go_home: boolean = true
 
 console.log(firstname)
 console.log(y)
-console.log(what_to_go_home)
+console.log(want_to_go_home)
 
 
 const a:number = 10
@@ -15,3 +15,4 @@ const b:number = 20
 console.log(a===b)
 console.log(a>b)
 console.log(a<=b)
+
