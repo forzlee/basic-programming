@@ -145,15 +145,15 @@ function bmi(height: number, weight: number) {
     let score: number = weight / (height * height)
 
     if(score < 18.50) { 
-        return 'น้ำหนักน้อย' 
+        return 'ผอม' 
     } else if (score < 22.90) { 
         return 'ปกติ' 
     } else if (score < 24.90) { 
-        return 'ท้วม' 
+        return 'อ้วน1' 
     } else if (score < 29.90) { 
-        return 'อ้วน' 
+        return 'อ้วน2' 
     } else { 
-        return 'อ้วนมาก' 
+        return 'อ้วน3' 
     }
 }
      
