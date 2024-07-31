@@ -138,3 +138,27 @@ function digital(age: number, pay: number, deposit: number) {
 }
 digital(10, 2000000, 50000000)
 
+
+
+
+function bmi(height: number, weight: number) { 
+    let score: number = weight / (height * height)
+
+    if(score < 18.50) { 
+        return 'น้ำหนักน้อย' 
+    } else if (score < 22.90) { 
+        return 'ปกติ' 
+    } else if (score < 24.90) { 
+        return 'ท้วม' 
+    } else if (score < 29.90) { 
+        return 'อ้วน' 
+    } else { 
+        return 'อ้วนมาก' 
+    }
+}
+     
+console.log(bmi(1.63, 70) ) //การบ้าน
+
+
+
+
