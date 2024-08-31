@@ -28,11 +28,29 @@ NnameArray.reverse()
 console.log(NnameArray)
 
 const me = {
-    Firstname: 'nanier',
-    Lastname: 'jubjub',
-    age: 18,
-    tel: '063333333',
-    gender: 'female',
+    Firstname: 'cherry',
+    Lastname: 'vanilla',
+    Age: 18,
+    Tel: '063333333',
+    Gender: 'female',
+	Address: '77/7',
+	Village:7,
+	Road: 'gardenangle',
+	District: 'flower',
+	Province: 'Bangkok',
+	PostalCode: 45678,
+	Mail:'cherryjubjub@gmail.com',
 }
 
-// ชื่อ: 
+// ชื่อ:cherry
+// นามสกุล:vanilla
+// อายุ:18
+// เบอร์โทร:063333333
+// เพศ:female
+// ที่อยู่:77/7
+// หมู่บ้าน:7
+// ถนน:gardenangle
+// เขต:flower
+// จังหวัด:Bangkok
+// รหัสไปรษณีย์:45678
+// เมล:cherryjubjub@gmail.com
