@@ -1,5 +1,5 @@
 const myStudents: string = "เซน,เวฟ,รุ้ง,เท็ก,สร"
-const myStudentsArray: string[] = ["["เซน", "แทน" ,"เวฟ" , "รุ้ง" , "เท็ก" , "สร" ]"]
+const myStudentsArray: string[] = ["เซน", "แทน" ,"เวฟ" , "รุ้ง" , "เท็ก" , "สร" ]
 console.log(myStudents)
 console.log(myStudentsArray)
 
