@@ -479,8 +479,8 @@ conts newOnlyThaipbs = news.results.filter(function(element, index) {
 		title: element.title,
 		link: element.link,
 		description: element.description,
-		scorce_id: element.scorce_id,
-		image_url: element.image_url
+		source_id: element.source_id,
+		image_url: element.image_url,
 	})
 })
 
