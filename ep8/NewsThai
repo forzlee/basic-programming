@@ -470,3 +470,18 @@ const newsThai = news.results.filter(function(element, index) {
     return element.language === "thai"
 })
 console.log(newsThai)
+
+
+conts newOnlyThaipbs = news.results.filter(function(element, index) {
+	return element.language !=='english' && element.source_id === 'thaipbs'
+}).map(function(element, index) {
+	return({
+		title: element.title,
+		link: element.link,
+		description: element.description,
+		scorce_id: element.scorce_id,
+		image_url: element.image_url
+	})
+})
+
+console.log(newOnlyThaipbs)
