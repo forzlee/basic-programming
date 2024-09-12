@@ -1,4 +1,4 @@
-const news = {
+fconst news = {
     "status": "success",
     "totalResults": 2373,
     "results": [
@@ -472,7 +472,7 @@ const newsThai = news.results.filter(function(element, index) {
 console.log(newsThai)
 
 
-conts newOnlyThaipbs = news.results.filter(function(element, index) {
+const newOnlyThaipbs = news.results.filter(function(element, index) {
 	return element.language !=='english' && element.source_id === 'thaipbs'
 }).map(function(element, index) {
 	return({
